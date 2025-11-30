@@ -19,7 +19,7 @@ max30100 (for heart beat and o2 level) using i2c / thermistor using adc / accele
 <h1> Prediction model training and generation </h1>
 "health.ipynb", we dicovered, prepared and used the data from "newborn_health_monitoring_with_risk.csv" found in Kaggle (https://www.kaggle.com/datasets/miadul/newborn-health-monitoring-dataset) to train a model.<br>
 We generated this model into "my_health_classifier.joblib" file to be able to use the trained model and include it to the binary of the app we're building.<br>
-We used "conv.py" to convert it to "health_classifier.onnx" so that we can include it to the app using an onnx runtime that we built for android found in : https://github.com/oussamaelwefi/onnx_runtime_for_android
+We used "conv.py" to convert it to "health_classifier.onnx" so that we can include it to the app using an onnx runtime that we built for android found in : https://github.com/oussamaelwefi/onnx_runtime_for_android<br>
 We tested it using "test_onnx.py" <br>
 We used a sickit-learn model in our case.<br>
 <div align="center">
